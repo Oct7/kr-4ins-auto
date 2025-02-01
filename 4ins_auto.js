@@ -21,7 +21,7 @@
   const startMonth = parseInt(getInput('조회 시작 월을 입력하세요 (1-12):'), 10);
   const endYear = parseInt(getInput('조회 종료 연도를 입력하세요 (예: 2025):'), 10);
   const endMonth = parseInt(getInput('조회 종료 월을 입력하세요 (1-12):'), 10);
-  const businessNumber = getInput('사업자 번호를 입력하세요 (숫자만, 예: 2888102136):');
+  const businessNumber = getInput('사업자 번호를 입력하세요 (숫자만, 예: 0123456789):');
 
   // 입력 값 검증
   if (
