@@ -22,3 +22,8 @@
 2. pip install -r requirements.txt
 3. python csv_to_xlsx.py
 4. outputs 폴더에 저장됩니다.
+
+### TODO
+
+[] 사이트 로그인까지 자동화하기
+[] 엑셀파일로 저장될 수 있는 스크립트 코드로 전환
