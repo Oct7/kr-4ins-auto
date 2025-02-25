@@ -254,7 +254,8 @@
         const response = await fetch(url, {
           method: 'POST',
           headers: {
-            'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
+            'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+            'Access-Control-Allow-Origin': 'https://si4n.nhis.or.kr'
           },
           body: new URLSearchParams(newParams)
         });
